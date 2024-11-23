@@ -4085,7 +4085,7 @@ var SignJWT = class extends ProduceJWT {
 };
 
 // src/worker.js
-var userID = "89b3cbba-e6ac-485a-9481-976a0415eab9";
+var userID = "d6925051-fecc-476b-91f4-dd0ee3c51d41";
 var trojanPassword = `bpb-trojan`;
 var proxyIPs = ["bpb.yousef.isegaro.com"];
 var defaultHttpPorts = ["80", "8080", "2052", "2082", "2086", "2095", "8880"];
@@ -4328,7 +4328,7 @@ var worker_default = {
               }
             });
           default:
-            url.hostname = "www.speedtest.net";
+            url.hostname = "sakurairinaqwq.github.io";
             url.protocol = "https:";
             request = new Request(url, request);
             return await fetch(request);
@@ -5100,7 +5100,7 @@ async function getConfigAddresses(hostName, cleanIPs, enableIPv6) {
   const defaultIPv6 = enableIPv6 ? resolved.ipv6.map((ip) => `[${ip}]`) : [];
   return [
     hostName,
-    "www.speedtest.net",
+    "sakurairinaqwq.github.io",
     ...resolved.ipv4,
     ...defaultIPv6,
     ...cleanIPs ? cleanIPs.split(",") : []
